@@ -1,0 +1,252 @@
+/* Target mobile devices in portrait mode and up */
+@media screen and (min-width: 320px) {}
+
+
+
+
+
+
+/* Target mobile devices in landscape mode and up */
+@media screen and (min-width: 480px) {}
+
+
+
+
+
+
+
+
+
+/* Target tablets in portrait mode and up */
+@media screen and (min-width: 600px) {
+
+    /************* portfolio section *************/
+    
+    /*///////////////// cards //////////////*/
+    
+    .portfolio-bottom .project1 {
+        grid-area: 1 / 1 / span 1 / span 1;
+    }
+    
+    .portfolio-bottom .project2 {
+        grid-area: 1 / 2 / span 2 / span 1;
+    }
+    
+    .portfolio-bottom .project3 {
+        grid-area: 2 / 1 / span 1 / span 1;
+        transform: translateY(-20%);
+    }
+    
+    .portfolio-bottom .project4 {
+        grid-area: 3 / 1 / span 2 / span 1;
+        transform: translateY(-18%);
+    }
+    
+    .portfolio-bottom .project5 {
+        grid-area: 3 / 2 / span 1 / span 1;
+    }
+    
+    .portfolio-bottom .project6 {
+        grid-area: 4 / 2 / span 1 / span 1;
+    }
+
+    .portfolio-bottom .project7 {
+        grid-area: 5 / 1 / span 1 / span 1;
+        transform: translateY(-50%);
+    }
+    
+    /*///////////////// cards end //////////////*/
+    
+}
+
+
+
+
+
+
+
+
+
+/* Target tablets in landscape mode and up */
+@media screen and (min-width: 768px) {
+
+
+    /************* about section *************/
+
+
+    .about-section-bottom .container {
+        flex-wrap: nowrap;
+    }
+
+    .number-card {
+        width: 25%;
+    }
+
+    .experiance {
+        border-bottom: none;
+    }
+
+    .happy {
+        border-bottom: none;
+        border-right: #e3e3e3 1px dashed;
+    }
+
+
+    /************* services section *************/
+
+    .services-section .container {
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 80%;
+    }
+    
+    .services-card {
+        width: 48%;
+    }
+
+    .services-card-right {
+        width: 80%;
+    }
+
+
+    /************* resume section *************/
+
+    .resume-section-top {
+        display: flex;
+        gap: 40px;
+    }
+
+    .resume-skills {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .resume-skills-left {
+        width: 50%;
+    }
+    
+    .resume-skills-right {
+        width: 50%;
+    }
+
+    /***************Contact Section*******************/
+
+    .contact-section .container {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    
+    .contact-section-data{
+        width: 25%;
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    .contact-section-data .social-media {
+        justify-content: flex-start;    
+    }
+
+    .contact-section-form {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Target the desktop view */
+@media screen and (min-width: 1024px) {
+
+
+    /************* Home section *************/
+
+    .fa-bars, .fa-xmark {
+        display: none;
+    }
+
+    .nav-bar-middle {
+        display: inline;
+    }
+
+    /************* about section *************/
+
+    .about-section-top-left {
+        width: 65%;
+        text-align: left;
+    }
+
+    .about-section-top-right {
+        width: 30%;
+    }
+
+
+    /************* portfolio section *************/
+    
+    /*///////////////// cards //////////////*/
+    
+    .portfolio-bottom .project1 {
+        grid-area: 1 / 1 / span 1 / span 1;
+    }
+    
+    .portfolio-bottom .project2 {
+        grid-area: 1 / 2 / span 2 / span 1;
+    }
+    
+    .portfolio-bottom .project3 {
+        grid-area: 1 / 3 / span 1 / span 1;
+        transform: translateY(0);
+    }
+    
+    .portfolio-bottom .project4 {
+        grid-area: 2 / 1 / span 2 / span 1;
+        transform: translateY(-10%);
+    }
+    
+    .portfolio-bottom .project5 {
+        grid-area: 2 / 3 / span 1 / span 1;
+        transform: translateY(-20%);
+    }
+    
+    .portfolio-bottom .project6 {
+        grid-area: 3 / 3 / span 1 / span 1;
+        transform: translateY(-27%);
+    }
+
+    .portfolio-bottom .project7 {
+        grid-area: 3 / 2 / span 1 / span 1;
+        transform: translateY(0);
+    }
+    
+    /*///////////////// cards end //////////////*/
+
+    /************* client section *************/
+    .client-card {
+        width: 48%;
+    }
+
+    /***************Contact Section*******************/
+    .name-email {
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .name-email input {
+        width: 100%;
+    }
+
+
+    .footer-section .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
